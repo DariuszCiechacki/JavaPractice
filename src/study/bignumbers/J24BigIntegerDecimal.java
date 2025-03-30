@@ -1,4 +1,4 @@
-package study;
+package study.bignumbers;
 
 import java.math.*;
 

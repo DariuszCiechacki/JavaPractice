@@ -1,4 +1,4 @@
-package study;
+package study.simpletypes;
 
 public class J21MultiDimensionalArray {
     public static void main(String[] args){

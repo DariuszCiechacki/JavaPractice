@@ -1,4 +1,4 @@
-package study;
+package study.simpletypes;
 
 public class J12WrapperClasses {
 

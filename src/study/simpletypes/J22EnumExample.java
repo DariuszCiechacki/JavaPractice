@@ -1,4 +1,4 @@
-package study;
+package study.simpletypes;
 
 public class J22EnumExample {
     enum ShirtSizes {XS, S, M, L, XL}

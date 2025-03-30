@@ -1,7 +1,4 @@
-package study;
-
-import java.math.BigDecimal;
-import java.math.BigInteger;
+package study.bignumbers;
 
 public class J25NumbersConversion {
     public static void main(String[] args){
