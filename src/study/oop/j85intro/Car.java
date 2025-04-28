@@ -1,7 +1,8 @@
 package study.oop.j85intro;
 
 /**
- * Klasa Car (Szablon)
+ * Klasa jest to szablon opisujący stan oraz zachowania danego obiektu.
+ * Poniższa klasa "Car" opisuje samochód oraz jego właściwości jak producent, nazwę i prędkość maksymalną.
  */
 class Car {
     String manufacturer;

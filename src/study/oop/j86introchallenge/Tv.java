@@ -1,4 +1,4 @@
-package study.oop.j86challenge;
+package study.oop.j86introchallenge;
 
 public class Tv {
     String producent;
