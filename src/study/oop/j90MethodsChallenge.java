@@ -1,6 +1,6 @@
-package study.oop.j90methodschallenge;
+package study.oop;
 
-public class Wallet {
+class Wallet {
     float money;
 
     public Wallet(float money) {
@@ -21,5 +21,19 @@ public class Wallet {
 
     public void printAmount() {
         System.out.println("Aktualna wartość portfela: " + this.money);
+    }
+}
+
+public class j90MethodsChallenge {
+    public static void main(String[] args) {
+        Wallet myWallet = new Wallet();
+
+        for (int i = 1; i <= 6; i++) {
+            myWallet.addMoney(5000.0f);
+            myWallet.removeMoney(2000.0f);
+            myWallet.removeMoney(1000.0f);
+        }
+
+        myWallet.printAmount();
     }
 }

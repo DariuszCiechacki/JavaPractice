@@ -1,6 +1,6 @@
-package study.oop.j87contructor;
+package study.oop;
 
-public class Phone {
+class Phone {
     String manufacturer;
     String model;
     String color;
@@ -22,5 +22,15 @@ public class Phone {
 
     public void printInfo() {
         System.out.println(this.manufacturer + " " + this.model + " " + this.productionYear);
+    }
+}
+
+public class j87Constructors {
+    public static void main(String[] args) {
+        Phone iPhone = new Phone("Apple", "16e", "blue", 2025, 2499.0f);
+        iPhone.printInfo();
+
+        Phone xiaomi = new Phone();
+        xiaomi.printInfo();
     }
 }

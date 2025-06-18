@@ -1,6 +1,6 @@
-package study.oop.j88constructorchallenge;
+package study.oop;
 
-public class Student {
+class Student {
     String firstName;
     String lastName;
     String city;
@@ -22,5 +22,15 @@ public class Student {
 
     public void printInfo() {
         System.out.println(this.firstName + " " + this.lastName + " " + this.city + " " + this.age);
+    }
+}
+
+public class j88ConstructorChallenge {
+    public static void main(String[] args) {
+        Student defaultStudent = new Student();
+        defaultStudent.printInfo();
+
+        Student newStudent = new Student("Dariusz", "Ciechacki", "Wrocław", 32);
+        newStudent.printInfo();
     }
 }
