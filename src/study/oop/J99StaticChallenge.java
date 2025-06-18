@@ -4,8 +4,8 @@ class Item {
     public static int numItems = 0;
     final int ID;
 
-    public Item(int Id) {
-        ID = Id;
+    Item(int id) {
+        ID = id;
     }
 
     public static int getNextId() {
@@ -18,11 +18,22 @@ class Item {
         return item;
     }
 
-    public static void printNumbItems() {
-        System.out.println("Num items: " + Item.numItems);
+    public static void printNumItems() {
+        System.out.println("NumItems: " + Item.numItems);
+    }
+
+    public void printId() {
+        System.out.println("Item ID: " + this.ID);
     }
 }
 
 public class J99StaticChallenge {
-//dsadsa
+    public static void main(String[] args) {
+        for (int i = 1; i <= 3; i++) {
+            Item item = Item.getItem();
+            item.printId();
+        }
+
+        Item.printNumItems();
+    }
 }

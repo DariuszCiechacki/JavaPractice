@@ -34,7 +34,7 @@ class CarFactory {
     }
 }
 
-public class j92returnchallenge {
+public class J92ReturnChallenge {
     public static void main(String[] args) {
         CarFactory carFactory = new CarFactory();
         Car car1 = carFactory.buildCar();

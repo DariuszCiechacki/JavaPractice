@@ -25,7 +25,7 @@ class Phone {
     }
 }
 
-public class j87Constructors {
+public class J87Constructors {
     public static void main(String[] args) {
         Phone iPhone = new Phone("Apple", "16e", "blue", 2025, 2499.0f);
         iPhone.printInfo();

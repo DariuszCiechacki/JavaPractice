@@ -1,7 +1,5 @@
 package study.oop;
 
-import study.oop.j86introchallenge.Tv;
-
 /**
  * Metoda to kolekcja instrukcji razem zgrupowana, która może być wielokrotnie wywołana, aby przeprowadzić jakieś operacje.
  * Na przykładzie metody main - metoda składa się z poniższych elementów:

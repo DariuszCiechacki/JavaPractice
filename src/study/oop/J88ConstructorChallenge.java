@@ -25,7 +25,7 @@ class Student {
     }
 }
 
-public class j88ConstructorChallenge {
+public class J88ConstructorChallenge {
     public static void main(String[] args) {
         Student defaultStudent = new Student();
         defaultStudent.printInfo();

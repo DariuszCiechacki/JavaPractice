@@ -24,7 +24,7 @@ class Wallet {
     }
 }
 
-public class j90MethodsChallenge {
+public class J90MethodsChallenge {
     public static void main(String[] args) {
         Wallet myWallet = new Wallet();
 

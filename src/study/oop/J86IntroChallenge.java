@@ -11,7 +11,7 @@ class Tv {
     }
 }
 
-public class j86IntroChallenge {
+public class J86IntroChallenge {
     public static void main(String[] args) {
         Tv phillips = new Tv();
         phillips.producent = "Phillips";

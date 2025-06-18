@@ -20,7 +20,7 @@ class FastCar {
 /**
  * Obiekt na podstawie klasy Car
  */
-public class j85Intro {
+public class J85Intro {
     public static void main(String[] args) {
         // Tworzę nowy obiekt Ford
         FastCar ford = new FastCar(); //nowa instancja klasy Car
