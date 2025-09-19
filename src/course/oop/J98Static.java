@@ -35,6 +35,5 @@ public class J98Static {
         System.out.println("Plane1 id: " + Plane.getNextId());
         System.out.println("Plane2 id: " + plane2.getNextId()); //Wywoływanie statycznych metod na obiekcie jest złą praktyką
         System.out.println("Plane3 id: " + Plane.getNextId());
-
     }
 }
